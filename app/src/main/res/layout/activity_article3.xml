@@ -29,15 +29,8 @@
 Know where and how to get treatment and other support services and resources, including counseling or therapy (in person or through telehealth services).
 Take care of your emotional health. Taking care of your emotional health will help you think clearly and react to the urgent needs to protect yourself and your family.
 Take breaks from watching, reading, or listening to news stories, including those on social media. Hearing about the pandemic repeatedly can be upsetting.
-Take care of your body.
-Take deep breaths, stretch, or  meditateexternal icon.
-Try to eat healthy, well-balanced meals.
-Exercise regularly.
-Get plenty of sleep.
-Avoid excessive alcohol and drug use.
 Make time to unwind. Try to do some other activities you enjoy.
-Connect with others. Talk with people you trust about your concerns and how you are feeling.
-Connect with your community- or faith-based organizations. While social distancing measures are in place, consider connecting online, through social media, or by phone or mail."
+Connect with others. Talk with people you trust about your concerns and how you are feeling."
         android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"

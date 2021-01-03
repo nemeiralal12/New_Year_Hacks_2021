@@ -30,7 +30,7 @@
 
 There are many ways to keep your mind and mood in optimal shape. Exercise, healthy eating, and stress reduction techniques like meditation or mindfulness can keep your brain — and your body — in tip-top shape.
 
-When mood and mental health slip, doing something about it as early as possible can keep the change from getting worse or becoming permanent. Treating conditions like depression and anxiety improve quality of life. Learning to manage stress makes for more satisfying and productive days."
+When mood and mental health slip, doing something about it as early as possible can keep the change from getting worse or becoming permanent."
         android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
