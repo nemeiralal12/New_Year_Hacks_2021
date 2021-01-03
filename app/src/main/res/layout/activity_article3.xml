@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article3"
+    android:background="@drawable/background1">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="363dp"
+        android:layout_height="114dp"
+        android:text="WHAT HELPS IN COVID"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="389dp"
+        android:layout_height="516dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Know what to do if you are sick and are concerned about COVID-19. Contact a health professional before you start any self-treatment for COVID-19.
+Know where and how to get treatment and other support services and resources, including counseling or therapy (in person or through telehealth services).
+Take care of your emotional health. Taking care of your emotional health will help you think clearly and react to the urgent needs to protect yourself and your family.
+Take breaks from watching, reading, or listening to news stories, including those on social media. Hearing about the pandemic repeatedly can be upsetting.
+Make time to unwind. Try to do some other activities you enjoy.
+Connect with others. Talk with people you trust about your concerns and how you are feeling."
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
