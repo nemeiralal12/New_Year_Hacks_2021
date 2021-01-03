@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.New_Year_New_Hacks">
+        <activity android:name=".Article3"></activity>
+        <activity android:name=".Article2" />
+        <activity android:name=".Article1" />
+        <activity android:name=".ArticleChoose" />
+        <activity android:name=".MoodDetector" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

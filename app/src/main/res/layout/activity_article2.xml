@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article2"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="363dp"
+        android:layout_height="114dp"
+        android:text="WHY BREATHING HELPS"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="389dp"
+        android:layout_height="516dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Your breath isn’t just part of your body’s stress response, it’s key to it. In fact, you can induce a state of anxiety or panic in someone just by having them take shallow, short breaths from their chest, Rhoads says.
+
+That means that purposeful deep breathing can physically calm your body down if you’re feeling stressed or anxious.
+But why does deep breathing work? It has to do with how your nervous system functions.
+Here’s a quick and painless biology lesson: Your autonomic nervous system, which controls involuntary actions like heart rate and digestion, is split into two parts. One part, the sympathetic nervous system, controls your fight-or-flight response. The other part, the parasympathetic nervous system, controls your rest and relax response.
+Breathing more deeply also allows for more carbon dioxide to enter your blood, which quiets down parts of the brain, like the amygdala, that handle your anxiety response. More carbon dioxide also helps synchronize your heartbeat and breathing, Rhoads says."
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

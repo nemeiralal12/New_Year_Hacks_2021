@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class WelcomePage extends AppCompatActivity {
-    private Button button_ch;
+    private Button button_ch, button_a;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +20,12 @@ public class WelcomePage extends AppCompatActivity {
                 startActivity(new Intent(WelcomePage.this, ChooseMood.class));
         }
     });
+        button_a = findViewById(R.id.button3);
+        button_a.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(WelcomePage.this, ArticleChoose.class));
+            }
+        });
     }
 }
